@@ -81,6 +81,101 @@ color: aqua;
 }
 
 
+/*-----slidercss---*/
+
+.slider{
+
+
+
+    background-image: url(/images/dark.jfif);
+    
+    background-size: fixed;
+    margin-top: 50px;
+    margin-left: 50px;
+  padding: 70px;
+   height: 700px;
+}
+
+.sliderh{
+
+    color:whitesmoke;
+    text-align: center;
+    font-size: 45px;
+    padding: 70px;
+
+
+
+
+
+    
+}
+
+.btnh{
+
+    font-size: 30px;
+    background-color: aqua;
+  color: whitesmoke;
+    align-items: center;
+    
+    padding: 20px;
+    
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.spanbtn{
+
+    font-size: 20px;
+    color: white;
+}
+
+.slider:hover{
+
+    background-image:url(/images/pexels-pixabay-267507.jpg);
+    
+
+}
+
+
+
+.btnh:hover{
+
+    font-size: 30px;
+    
+  color: yellow;
+    align-items: center;
+    
+    padding: 20px;
+    background-color: rgb(255, 51, 0);
+    margin-left: 35%;
+    border-radius: 10px;
+}
+
+.sliderh:hover{
+
+    color:aqua;
+    text-align: center;
+    font-size: 45px;
+    padding: 70px;
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
