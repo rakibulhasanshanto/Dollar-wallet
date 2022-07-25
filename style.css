@@ -1,10 +1,96 @@
 body{
 
 
-    font-family: 'Poppins', sans-serif;
- background-color: azure;
+ font-family: 'Poppins', sans-serif;
+ background-color: gainsboro;
+
+width: 1290px;
+
+
+}
+
+
+.header{
+
+    background-color:gray;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding-left: 60px;
+    
+
+}
+
+.header-left{
+float: left;
+width: 20%;
+}
+
+.header-left a{
+    
+}
+
+.header-left a img {
+width: 30%;
+border-radius: 50%;
+margin-top: 2px;
+
+    
+}
+
+
+
+.header-right{
+
+text-align: center;
+
+float:right;
+width: 80%;
+margin-top: 25px;
+
+
+
+}
+
+
+.header-right a{
+
+    text-decoration: none;
+ margin-bottom: 10px;
+ justify-content: space-around;
+ padding: 20px;
+ animation-direction: alternate;
+animation-play-state: running;
+animation-fill-mode: forwards;
+
+transform-style: preserve-3d;
+color: black;
 
 
 
 
 }
+
+
+.header-right a:hover{
+text-decoration: dotted;
+color: aqua;
+-webkit-animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
