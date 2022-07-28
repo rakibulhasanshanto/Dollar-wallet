@@ -94,6 +94,7 @@ color: aqua;
     margin-left: 50px;
   padding: 70px;
    height: 700px;
+   border-radius: 10%;
 }
 
 .sliderh{
@@ -117,7 +118,7 @@ color: aqua;
   color: whitesmoke;
     align-items: center;
     
-    padding: 20px;
+    padding: 10px;
     
     margin-left: 35%;
     border-radius: 10px;
@@ -131,6 +132,7 @@ color: aqua;
 .slider:hover{
 
     background-image:url(/images/pexels-pixabay-267507.jpg);
+    border-radius: 10%;
     
 
 }
@@ -144,7 +146,7 @@ color: aqua;
   color: yellow;
     align-items: center;
     
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(255, 51, 0);
     margin-left: 35%;
     border-radius: 10px;
@@ -168,10 +170,111 @@ color: aqua;
 
 
 
+/*-----gridflex-----*/
+
+
+.gridflex{
+
+    display: flex;
+    margin-top: 30px;
+}
+
+.gridflexleft{
+    width: 20%;
+    
+    border: 1px solid white;
+    background-color: black;
+
+
+    padding: 30px;
+    margin: 20px;
+    color: aliceblue;
+    font-size: 9px;
+    border: 1px solid whitesmoke;
+    margin-left: 10%;
+    border-radius: 5px;
+
+}
+.box{
+
+    
+    margin: 10px;
+}
+
+.box h1{
+    border: 1px solid white ;
+    text-align: center;
+    font-size: 25px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    
+
+}
+
+.box h2{
+
+border: 1px solid black;
+ text-align:  center;
+ font-size: 25px;
+ background-color: red;
+ color: black;
+ border-radius: 5px;
+
+}
+
+
+
+.gridflexright{
+
+    background-color: gray;
+
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+
+}
+
+.card1{
+
+    width:5%;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gridflexright{
+
+width: 80%;
+text-align: center;
+}
 
 
 
